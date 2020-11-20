@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "modelDrivenForm"
+  "defaultProject": "modelDrivenForm",
+  "cli": {
+    "analytics": false
+  }
 }

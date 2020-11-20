@@ -1,0 +1,35 @@
+<p>tdf works!</p>
+<p>reactive works!</p>
+
+<form [formGroup]="form">
+  <p>
+    <label>Email</label>
+    <input type="email" formControlName="email" formControlName="username" />
+  </p>
+
+  <p>
+    <label>Password</label>
+    <input
+      type="password"
+      formControlName="password"
+      formControlName="password"
+    />
+  </p>
+
+  <p>
+    <label>Password</label>
+    <select name="gender">
+      <option value="male">Male</option>
+      <option value="femal">Female</option>
+      <option value="None">None</option>
+    </select>
+  </p>
+  <p>
+    <label>Age</label>
+    <input type="text" formControlName="age" />
+  </p>
+
+  <p>
+    <button type="button">Submit</button>
+  </p>
+</form>
